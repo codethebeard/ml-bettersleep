@@ -15,6 +15,7 @@
 		808CBD9B233FBC0B00D37510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 808CBD99233FBC0B00D37510 /* LaunchScreen.storyboard */; };
 		808CBDA6233FBC0B00D37510 /* BetterTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808CBDA5233FBC0B00D37510 /* BetterTestTests.swift */; };
 		808CBDB1233FBC0B00D37510 /* BetterTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 808CBDB0233FBC0B00D37510 /* BetterTestUITests.swift */; };
+		808CBDBF233FCE5A00D37510 /* SleepCalculator.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 808CBDBE233FCE5900D37510 /* SleepCalculator.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		808CBDAC233FBC0B00D37510 /* BetterTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BetterTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		808CBDB0233FBC0B00D37510 /* BetterTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetterTestUITests.swift; sourceTree = "<group>"; };
 		808CBDB2233FBC0B00D37510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		808CBDBE233FCE5900D37510 /* SleepCalculator.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SleepCalculator.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				808CBD97233FBC0B00D37510 /* Assets.xcassets */,
 				808CBD99233FBC0B00D37510 /* LaunchScreen.storyboard */,
 				808CBD9C233FBC0B00D37510 /* Info.plist */,
+				808CBDBE233FCE5900D37510 /* SleepCalculator.mlmodel */,
 			);
 			path = BetterTest;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				808CBD93233FBC0A00D37510 /* ViewController.swift in Sources */,
 				808CBD8F233FBC0A00D37510 /* AppDelegate.swift in Sources */,
+				808CBDBF233FCE5A00D37510 /* SleepCalculator.mlmodel in Sources */,
 				808CBD91233FBC0A00D37510 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,6 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX7ARNJK9R;
 				INFOPLIST_FILE = BetterTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -452,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HX7ARNJK9R;
 				INFOPLIST_FILE = BetterTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
